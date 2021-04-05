@@ -11,3 +11,7 @@ group :development, :test do
   gem 'rspec'
   gem 'pry'
 end
+
+group :test do
+  gem 'simplecov'
+end
